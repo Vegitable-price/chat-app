@@ -5,13 +5,11 @@
         <%= message.user.name %>
       </div>
       <div class="message-time">
-        <!-- 2020/3/31(Wed) 12:43:30 -->
-        <%= message.created_at %>
+        <%= l message.created_at %>
       </div>
     </div>
     <div class="message-content">
       <div class="message-create">
-        <!-- おはよう -->
         <%= message.content %>
       </div>
     </div>
